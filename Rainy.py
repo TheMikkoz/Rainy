@@ -47,7 +47,7 @@ class Main:
     #Threading <
     def thread1():
         global top
-        data = Main.http_get('http://dreamlo.com/lb/5f04b7fd377eda0b6ccc264b/json')
+        data = Main.http_get('http://dreamlo.com/lb/--(Dreamlo Code Hehe)--/json')
         data = ast.literal_eval(data)
         for i in range(5):
             try:
@@ -58,7 +58,7 @@ class Main:
         top[i]["name"] = Main.Name(top[i]["name"])
 
     def thread2():
-        data = Main.http_get('http://dreamlo.com/lb/pIT5fNAznUCd_zXvuy72dwihLgPcXhxkWW9VapRU9wOQ/add/' + myName +'/' + str(scorePoints))
+        data = Main.http_get('http://dreamlo.com/lb/--(Dreamlo Code Hehe)--/add/' + myName +'/' + str(scorePoints))
     #>
 
 if __name__ == "__main__":
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     #Fix sound delay
     pygame.mixer.pre_init(44100, -16, 1, 512)
 
-    #Leaderboard!! http://dreamlo.com/lb/pIT5fNAznUCd_zXvuy72dwihLgPcXhxkWW9VapRU9wOQ
+    #Leaderboard!! http://dreamlo.com/lb/--(Dreamlo Code Hehe)--
 
     #Init
     pygame.init()
